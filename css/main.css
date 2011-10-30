@@ -1,0 +1,32 @@
+.main {
+  text-align: center;
+  margin: 100px;
+}
+
+a.button {
+  color: white;
+  padding: 30px 40px;
+  text-shadow: 1px 1px 0 #145982;
+  text-decoration: none;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid #60b4e5;
+  margin: 30px;
+  /* CSS3 gradients for webkit and mozilla browsers fallback color for the rest: */
+  background-image: -moz-linear-gradient(#F902B6, #FFA4E6);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#F902B6), to(#FFA4E6));
+  box-shadow: 3px 3px 3px #000000;
+  -moz-box-shadow: 3px 3px 3px #000000;
+  -webkit-box-shadow: 3px 3px 3px #000000;
+  border-radius: 6px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  background-color: #F902B6;
+  background-image: -moz-linear-gradient(#6bbbe9, #57a5d4);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6bbbe9), to(#57a5d4));
+  box-shadow:3px 3px 3px #333;
+  -moz-box-shadow:3px 3px 3px #333;
+  -webkit-box-shadow:3px 3px 3px #333;
+}
